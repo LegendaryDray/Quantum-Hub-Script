@@ -1,15 +1,15 @@
--- Cosmos Hub(Formely Control Hub) | | Dark Control#6967 on discord 
+-- Quantum Hub(Formely Dragon Hub) | | Quantum ink 
 
 
 game.StarterGui:SetCore("SendNotification", {
-	Title = "Cosmos Hub";
-	Text = "Hello User Welcome To Cosmos Hub! Set The Keybinds In Settings!";
+	Title = "Quantum Hub";
+	Text = "Hello User Welcome To Quantum Hub! Set The Keybinds In Settings!";
 	Duration = 60;
 })
-setclipboard("https://discord.gg/t5pzFMPdY4")
+setclipboard("https://discord.gg/rraHSgE5D9")
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Cosmos Hub | | Made by Dark Control#6967 on discord", "Midnight")
+local Window = Library.CreateLib("Quantum Hub | | Made by Quatum Ink", "Midnight")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
@@ -882,19 +882,19 @@ end)
 
 local SettingSection = Setting:NewSection("Credits")
 
-SettingSection:NewLabel("Owner = Dark Control#6967")
+SettingSection:NewLabel("Owner = Quantum Ink")
 
 local SettingSection = Setting:NewSection("Help")
 
 SettingSection:NewLabel("if you have any bugs or need")
-SettingSection:NewLabel("help dm Dark Control#6967 on discord")
+SettingSection:NewLabel("need help? make a ticket on our discord")
 SettingSection:NewLabel("-----------------------------------------------")
 SettingSection:NewLabel("if you have a idea or something,")
-SettingSection:NewLabel("write it on my discord server")
+SettingSection:NewLabel("write it on our discord server")
 SettingSection:NewLabel("click the button below to copy link")
 
 SettingSection:NewButton("Copy Discord invite", "Copy Discord invite", function()
-    setclipboard("https://discord.gg/2dNf8hzEp6")
+    setclipboard("https://discord.gg/rraHSgE5D9")
 end)
 
 SettingSection:NewLabel("-----------------------------------------------")
